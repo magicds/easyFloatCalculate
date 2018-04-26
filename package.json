@@ -1,0 +1,28 @@
+{
+  "name": "easyfloatcalculate",
+  "version": "1.0.0",
+  "description": "easyfloatcalculate",
+  "main": "index.js",
+  "scripts": {
+    "build:browser": "browserify buld-browser.js > efc.js && uglifyjs efc.js -o efc.min.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdswyda/easyFloatCalculate.git"
+  },
+  "keywords": [
+    "float",
+    "calculate"
+  ],
+  "author": "cdswyda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdswyda/easyFloatCalculate/issues"
+  },
+  "homepage": "https://github.com/cdswyda/easyFloatCalculate#readme",
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "uglify-js": "^3.3.22"
+  }
+}
